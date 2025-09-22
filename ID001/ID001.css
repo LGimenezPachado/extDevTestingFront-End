@@ -1,8 +1,18 @@
-h1{
+.textTitles {
   color: #c7c6a8;
+}
+
+a {
+    text-decoration: none; /*para sacar el subrayado del hipervinculo en la página*/
+    color: inherit; /* opcional: que tome el color del texto */
 }
 
 body {
   background: #616161;
 }
-  
+
+button {
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 12px 10px 12px 10px;
+}
